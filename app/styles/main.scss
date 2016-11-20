@@ -1,0 +1,12 @@
+$title-color: #3675db;
+
+.movie-item {
+  a {
+    div {
+      color: $title-color; 
+      text-align: center;
+      padding: 10px;
+      font-size: 1.2em;
+    }
+  }
+}
