@@ -4,6 +4,7 @@ Si il manque des propriétés/données, elles peuvent être inscrite en dur dans
 Ex : utiliser du lorem ipsum pour les commentaires.
 -->
 
+
 <p>This is the movie view.</p>
 <div ng-bind="movieCtrl.movie.title"></div>
 <div ng-bind="movieCtrl.movie.overview"></div>
@@ -15,5 +16,5 @@ Ex : utiliser du lorem ipsum pour les commentaires.
     </div>
 </div>
 <div class="image-list">
-    <img ng-src="{{ movieCtrl.getImageURL(image,'w300') }}" ng-repeat="image in movieCtrl.movie.images.backdrops" />
+    <img ng-src="{{ image }}" ng-repeat="image in movieCtrl.images" />
 </div>
